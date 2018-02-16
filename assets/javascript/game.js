@@ -64,7 +64,7 @@ function newNumbers(){
         else if (totalScore > randomNumber){
             totalLosses++;
             $("#losses").text(totalLosses);
-            $("#score").text(totalScore+ " Too high. That's a loss.");
+            $("#score").text(totalScore+ " Too high!");
             newNumbers();
         }
 }

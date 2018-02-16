@@ -1,43 +1,75 @@
 h1{
-    color:blue;
+    color:black;
+    text-shadow:2px 2px white;
+    font-weight: 400px;
     font-size: 55px;
     margin:20px;
+    background-color:darkgray;
+    width:613px;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    border:2px solid #7a7a7a;
 }
 p{
     font-size:18px;
-    background-color: pink;
-    width:600px;
+    background-color: #fec301;
+    border:2px solid darkgray;
+    padding:15px;
+    width:583px;
     margin:20px;
 }
-h3{
+h2, h3{
     font-size:18px;
-    color:white;
+    color:black;
+}
+#score{
+    font-size:55px;
+    color:black;
 }
 .cryPic{
-    max-width:150px;
+    max-width:120px;
+    border:2px solid darkgray;
 }
 .gems{
     clear:both;
+    margin:20px;
+}
+body{
+    background-image: url("../images/halftone-yellow.png");
 }
 .scoreBox{
     margin:20px;
-    background-color:teal;
-    width:300px;
+    background-color: #fec301;
+    border:2px solid darkgray;
+    padding:15px;    
+    width:320px;
     height:100px;
+    text-align: center;
 }
-#randomNum, #score{
-    width:300px;
+#randomNum{
+    width:320px;
     height:100px;
-    background-color: yellow;
+    background-color: #fec301;
+    border:2px solid darkgray;
+    padding:15px;    
     float:left;
     font-size:55px;
     text-align: center;
+    margin-bottom:20px;
+    line-height: 100px;
+    vertical-align: middle;
 }
 #winLose{
     width:100px;
     height:100PX;
-    background-color:greenyellow;
+    background-color: #fec301;
+    border:2px solid darkgray;
+    padding:15px;    
     float:left;
+    line-height: 50px;
+    vertical-align: middle;
     margin-left:20px;
 }
 #data{
