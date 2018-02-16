@@ -14,7 +14,6 @@ newNumbers();
 //generate number for pink, blue, green, and orange crystals between 1-12
 function newNumbers(){
     randomNumber = Math.floor(Math.random()*101)+19;
-    console.log("ranNum="+randomNumber);
     blueNum = Math.floor(Math.random()*12)+1;
     pinkNum = Math.floor(Math.random()*12)+1;
     greenNum = Math.floor(Math.random()*12)+1;
@@ -27,28 +26,28 @@ function newNumbers(){
     $("#blue").on("click", function(){
         totalScore=totalScore+blueNum;
         $("#score").text(totalScore);
-        console.log("blue="+blueNum);
+        console.log("blue= "+blueNum);
         checkScore();
     })
 
     $("#pink").on("click", function(){
         totalScore=totalScore+pinkNum;
         $("#score").text(totalScore);
-        console.log("pink="+pinkNum);
+        console.log("pink= "+pinkNum);
         checkScore();
     })
 
     $("#green").on("click", function(){
         totalScore=totalScore+greenNum;
         $("#score").text(totalScore);
-        console.log("green="+greenNum);
+        console.log("green= "+greenNum);
         checkScore();
     })
 
     $("#orange").on("click", function(){
         totalScore=totalScore+orangeNum;
         $("#score").text(totalScore);
-        console.log("orange"+orangeNum);
+        console.log("orange= "+orangeNum);
         checkScore();
     })
 
