@@ -1,0 +1,43 @@
+h1{
+    color:blue;
+    font-size: 55px;
+    margin:20px;
+}
+p{
+    font-size:18px;
+    background-color: pink;
+    width:600px;
+    margin:20px;
+}
+h3{
+    font-size:18px;
+    color:white;
+}
+.cryPic{
+    max-width:150px;
+}
+.gems{
+    clear:both;
+}
+.scoreBox{
+    margin:20px;
+    background-color:teal;
+    width:300px;
+    height:100px;
+}
+#randomNum{
+    width:300px;
+    height:100px;
+    background-color: yellow;
+    float:left;
+}
+#winLose{
+    width:100px;
+    height:100PX;
+    background-color:greenyellow;
+    float:left;
+    margin-left:20px;
+}
+#data{
+    margin:20px;
+}
