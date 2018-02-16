@@ -25,11 +25,13 @@ h3{
     width:300px;
     height:100px;
 }
-#randomNum{
+#randomNum, #score{
     width:300px;
     height:100px;
     background-color: yellow;
     float:left;
+    font-size:55px;
+    text-align: center;
 }
 #winLose{
     width:100px;
