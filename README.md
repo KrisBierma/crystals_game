@@ -1,4 +1,4 @@
-# week-4-game
+# crystals_game
 
 
 In the Crystals Collector game random values are given to four crystals. The user clicks them to discover their values and each click adds that value to the total score. A win occurs when the total score equals the random value assigned at the beginning of the game.
